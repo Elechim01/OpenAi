@@ -14,7 +14,7 @@
 		C4AB76BA294F2E0400BE9346 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB76B9294F2E0400BE9346 /* Response.swift */; };
 		C4AB76BC294F2F6600BE9346 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB76BB294F2F6600BE9346 /* ViewModel.swift */; };
 		C4AB76BE294F2F8C00BE9346 /* OpenAIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB76BD294F2F8C00BE9346 /* OpenAIConnector.swift */; };
-		C4AB76C2294F8F5E00BE9346 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4AB76C1294F8F5E00BE9346 /* config.plist */; };
+		C4AB76C4294F946400BE9346 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4AB76C3294F946400BE9346 /* config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		C4AB76B9294F2E0400BE9346 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		C4AB76BB294F2F6600BE9346 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		C4AB76BD294F2F8C00BE9346 /* OpenAIConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIConnector.swift; sourceTree = "<group>"; };
-		C4AB76C1294F8F5E00BE9346 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		C4AB76C3294F946400BE9346 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				C4AB76AB294F2DA500BE9346 /* ContentView.swift */,
 				C4AB76AD294F2DA700BE9346 /* Assets.xcassets */,
 				C4AB76AF294F2DA700BE9346 /* Preview Content */,
-				C4AB76C1294F8F5E00BE9346 /* config.plist */,
+				C4AB76C3294F946400BE9346 /* config.plist */,
 			);
 			path = OpenAi;
 			sourceTree = "<group>";
@@ -153,9 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AB76C2294F8F5E00BE9346 /* config.plist in Resources */,
 				C4AB76B1294F2DA700BE9346 /* Preview Assets.xcassets in Resources */,
 				C4AB76AE294F2DA700BE9346 /* Assets.xcassets in Resources */,
+				C4AB76C4294F946400BE9346 /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
